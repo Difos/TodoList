@@ -1,0 +1,46 @@
+.info {
+   
+    padding-top: 1.625rem;
+   
+   
+
+}
+
+.info{
+
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+
+    font-family: 'Inter';
+    font-size: 0.875rem;
+    justify-content: space-between;
+
+    padding-top: 4rem;
+    padding-bottom: 1.5rem;
+   
+  
+}
+
+.info p:first-child {
+    color: var(--blue);
+}
+
+.info p {
+    color: var(--purple);
+    
+}
+
+
+.info p span {
+
+    border-radius: 12px;
+   
+    background-color: var(--gray-400);
+    color: var(--white);
+    font-size: 12px;
+}
+
+
+
+

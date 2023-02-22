@@ -1,0 +1,34 @@
+.header{
+    background: var(--gray-700);
+    display:flex;
+    justify-content:center;
+}
+
+.header img {
+    width:1.375rem;
+    height: 3.25rem;
+    
+    
+}
+
+.header div {
+    display: flex;
+    padding: 4.5rem 0;
+}
+
+.header p {
+    text-transform: lowercase;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 2.5rem;
+}
+
+.header div p:nth-child(2) {   
+    color:var(--blue);
+    padding-left: 0.75rem;
+}
+
+.header div p {
+    color:var(--purple-dark);
+}
+
